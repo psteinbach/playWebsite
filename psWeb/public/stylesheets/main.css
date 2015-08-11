@@ -1,0 +1,8 @@
+#body{
+    background-color:red;
+}
+
+.frontPageImage{
+    background-image: url("http://placehold.it/2000x2000");
+    background-size: cover;
+}

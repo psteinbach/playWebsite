@@ -1,7 +1,111 @@
 @(message: String)
 
-@main("First Try!") {
+@main("Home - Peter Steinbach") {
 
-    <H1>@{message}</H1>
+    <div class="ui fluid aligned container frontPageImage" id="frontPageImage">
+   
+   
+    <div class="ui inverted segment">
+      <div class="ui following fixed inverted compact menu">
+            <a class="ui tiny image item">
+                <img src="@routes.Assets.versioned("images/initialsBig.png")">
+            </a>
+          <a class="item">
+            <i class="child icon"></i>
+            About Me
+          </a>
+          <a class="item">
+            <i class="student icon"></i>
+            Education
+          </a>
+          <a class="item">
+            <i class="suitcase icon"></i>
+            Work Experience
+          </a>
+          <a class="item">
+            <i class="cubes icon"></i>
+            Projects
+          </a>
+          <a class="item">
+            <i class="comment icon"></i>
+            Contact
+          </a>
+        </div>
+    </div>
+    
 
+
+<div class="ui equal width centered grid">
+  <div class="left floated column">
+    <button class=" aligned violet ui inverted button" id="leftArrow">
+       <i class="centered left arrow icon"></i>
+    </button>
+  </div>
+  
+  <div class=" eight wide column">
+        <div class="ui center aligned container inflater">
+            <div class="ui shape dimmable center target">
+                <div class=" sides">
+                    <div class="side first active" id="firstSide">
+                       <div class="ui huge image">
+                          <img src="@routes.Assets.versioned("images/nameBig.png")">
+                        </div>
+                    </div>
+                    <div class="side second">
+                       <div class="ui large rounded image">
+                          <img src="@routes.Assets.versioned("images/me.jpg")">
+                        </div>
+                    </div>
+                    <div class="side third">
+                      <div class="content">
+                        <div class="center">
+                          3 // Cool Skills
+                        </div>
+                      </div>
+                    </div>
+                    <div class="side fourth">
+                      <div class="content">
+                        <div class="center">
+                          4 // My Goals
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+  </div>
+  
+  <div class="right floated column">
+    <button class="violet ui inverted button" id="rightArrow">
+      <i class="right arrow icon"></i>
+    </button>
+  </div>
+</div>
+    
+        
+    <div class="ui teal fluid container">
+      <div class="ui inverted fluid violet segment">
+      Fluid
+        <p>Middle</p>
+          <br>
+          <br>
+          <br>
+          <br>
+      </div>
+    </div>
+        
+
+
+    <div class="ui black inverted vertical footer segment">
+        <div class="ui center aligned container">
+            <div class="ui stackable inverted grid">
+                <a href="https://www.facebook.com/peter.steinbach">
+                    <img class="ui centered mini rounded image" border="0" alt="Facebook" src="@routes.Assets.versioned("images/ficon.png")" width="100" height="100">
+                </a>
+                <a href="https://www.linkedin.com/in/psteinbach">
+                    <img class="ui centered mini rounded image" border="0" alt="Linkedin" src="@routes.Assets.versioned("images/licon.png")" width="100" height="100">
+                </a>
+            </div>
+        </div>
+    </div>
 }

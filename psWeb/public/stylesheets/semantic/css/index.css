@@ -1,0 +1,33 @@
+.frontPageImage{
+    background-image: url("../../../images/stepsDoc.png");
+    background-size: cover;
+}
+
+.inflater{
+    height:900px;
+    width:100%;
+    background:transparent;
+}
+
+#leftArrow{
+    margin:50%;
+}
+
+#rightArrow{
+    margin:50%;
+}
+
+.sides{
+    width:1200px;
+    height:500px;
+}
+
+.side{
+    width:1200px;
+    height:500px;
+}
+
+.shape{
+    margin-top:150px;
+}
+
